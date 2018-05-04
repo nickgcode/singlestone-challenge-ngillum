@@ -1,0 +1,19 @@
+<div class="loading" *ngIf="!teams" [@fadeIn]>
+    <div>Loading data...</div>
+</div>
+
+<div class="container" *ngIf="teams" [@fadeIn]>
+    <div class="team" *ngFor="let team of filteredTeams()" [@fadeIn]>
+        <strong>{{team.name}}</strong>
+        <br/>
+        <span>{{team.city + ', ' + team.state}}</span>
+        <br/>
+        <div class="member" *ngFor="let member of filteredMembers(team)" [@fadeIn]>
+            {{member.firstName + ' ' + member.lastName}}
+            <br/>
+            <span>{{member.role}}</span>
+        </div>
+    </div>
+
+    <div class="footer">made by Nick Gillum</div>
+</div>

@@ -1,0 +1,89 @@
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: default;
+    font-size: 1.5em;
+    color: #6a6a6a;
+}
+
+.list-container {
+    height: 75%;
+    width: 50%;
+    padding:2%;
+    text-align: center;
+    min-height: max-content;
+}
+
+.list-item {
+    margin-bottom: 7%;
+    list-style: none;
+    height: 5%;
+    transition: font-size .3s, color .3s;
+}
+
+.list-item:hover {
+    font-size: 1.2em;
+    color: #212121;
+    transition: font-size .3s, color .3s;
+}
+
+.list-item span {
+    font-size: .6em;
+} */
+
+.loading {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.container {
+    color: #6a6a6a;
+    padding-bottom: 40px;
+    cursor: default;
+}
+
+.team {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.team span {
+    font-size: 13px;
+}
+
+.member {
+    height: 50px;
+    padding-top: 30px;
+    font-size: 20px;
+    transition: font-size .3s, color .3s;
+}
+
+.member span {
+    font-size: 15px;
+}
+
+.member:hover {
+    font-size: 24px;
+    color: #212121;
+    transition: font-size .3s, color .3s;
+}
+
+.footer {
+    margin: 100px 0 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    transition: font-size .3s, color .3s;
+}
+
+.footer:hover {
+    font-size: 20px;
+    transition: font-size .3s, color .3s;
+}
