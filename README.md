@@ -4,6 +4,11 @@ Run this app by cloning the repository, running `npm install`, then running `npm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
+### Introduction
+
+The TeamListComponent under app -> components -> teamListComponent is where all of the view code and logic resides.
+The CompanyDataService under app -> services is where the HTTP request is made for retrieving JSON data;
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
