@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Introduction
 
 The TeamListComponent under app -> components -> teamListComponent is where all of the view code and logic resides.
-The CompanyDataService under app -> services is where the HTTP request is made for retrieving JSON data;
+The CompanyDataService under app -> services is where the HTTP request is made for retrieving JSON data.
 
 ## Development server
 
