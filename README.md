@@ -1,8 +1,8 @@
 # Singlestone Coding Challenge - Nick Gillum
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
+Run this app by cloning the repository, running `npm install`, then running `npm start`
 
-Run this project by cloning the repository, running an npm install, then following the steps below for starting a development server.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
 ## Development server
 
